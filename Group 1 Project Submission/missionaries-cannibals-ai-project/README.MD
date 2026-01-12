@@ -62,7 +62,8 @@ assets/               → Screenshots
 - Nweke Okechukwu - 20233357
 - Oyiborhoro Samuel - 20233321
 - Michael Afegbua - 20231148
-- Abdulaziz Abubakar Sayyadi
-- Metu Lotana
+- Abdulaziz Abubakar Sayyadi - 20233050
+- Metu Lotana - 20231056
+
 
 
