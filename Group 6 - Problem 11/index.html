@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Algorithms, Explained Visually</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Algorithms, Explained Visually</h1>
+
+<div id="controls">
+  <select id="problemSelect">
+    <option value="cards">Cards / Coins</option>
+    <option value="birthday">Birthday</option>
+    <option value="airline">Seat Assignment</option>
+    <option value="handshake">Handshakes</option>
+    <option value="tenPirates">Ten Pirates</option>
+  </select>
+
+  <button id="run">Run</button>
+  <button id="pause">Pause</button>
+  <button id="resume">Resume</button>
+
+  <label style="margin-left:12px;">
+    Speed:
+    <input
+      type="range"
+      id="speedSlider"
+      min="0"
+      max="400"
+      value="40"
+    />
+  </label>
+</div>
+
+<div id="status"></div>
+
+<canvas id="canvas" width="2000" height="520"></canvas>
+
+<div id="infoPanel">
+  <div class="info-section">
+    <h3>Problem</h3>
+    <p id="problemDesc"></p>
+  </div>
+  <div class="info-section">
+    <h3>Algorithm</h3>
+    <p id="algorithmDesc"></p>
+  </div>
+  <div class="info-section">
+    <h3>Explanation / Results</h3>
+    <p id="liveExplain"></p>
+  </div>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
