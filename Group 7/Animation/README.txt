@@ -1,4 +1,4 @@
-# Mastermind AI (Strict Version)
+# Mastermind AI
 
 This is a browser-based Mastermind game with animated guesses and feedback dots.  
 The game demonstrates a step-by-step reveal of guesses and feedback, similar to the classic Mastermind board game.
@@ -33,7 +33,3 @@ The game demonstrates a step-by-step reveal of guesses and feedback, similar to 
 
 - Keep all files together in the same folder; otherwise, the HTML will not find the CSS and JS.
 - Works in any modern browser (Chrome, Firefox, Edge, Safari).
-
-## Credits
-
-Created as a web-based educational project.
